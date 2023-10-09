@@ -1,5 +1,5 @@
 # PVA4 - Programování a vývoj aplikací
-## Lekce 03: Formuláře a jejich zpracování
+## Cvičení 03: Formuláře a jejich zpracování
 ### 1. Formulář
 Název souboru: `formular.php`
 
