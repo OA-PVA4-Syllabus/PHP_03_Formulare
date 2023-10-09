@@ -25,7 +25,6 @@ Výsledek zobrazte v tomto formátu:
 * Clo: _x_ Kč
 * Celkové náklady k úhradě za dovoz: _x_ Kč
 * Náklady na pořízení: _x_ Kč
-* 
 
 --
 ### 3. Článek
