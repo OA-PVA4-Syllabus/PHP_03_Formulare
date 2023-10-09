@@ -11,9 +11,24 @@ Do formuláře bylo zadáno:
 * Emailová adresa: _muj@email.com_
 * Heslo: _xyz_
 
+--
+### 2. Celní řízení
+Název souboru: `celniRizeni.php`
+
+Vytvořte skript generující html stránku. V jejím obsahu umístěte formulář, který bude počítat dph a clo dle zadané hodnoty zboží.
+Od uživatele si vyžádejte název zboží a jeho hodnotu. Sazbu DPH si bude sám volit. Pro zjednodušení uvažujte DPH ve výši 15% nebo 21% a clo 2%. Poplatek za celní zpracování činí 90 Kč.
+
+Výsledek zobrazte v tomto formátu:
+* Název zboží: _abc_
+* Sazba DPH: x %
+* DPH: _x_ Kč
+* Clo: _x_ Kč
+* Celkové náklady k úhradě za dovoz: _x_ Kč
+* Náklady na pořízení: _x_ Kč
+* 
 
 --
-### 2. Článek
+### 3. Článek
 Název souboru: `clanek.php`
 
 Vytvořte stránku s formulářem, který bude přenášet data prostřednictvím URL. Účelem formuláře bude výběr jazykové mutace a článku.
@@ -28,19 +43,3 @@ Pro zjednodušení uvažujme články:
 Na stránce po odeslání zobrazte uživateli:
 * Zvolená jazyková mutace: _hodnota_
 * ID článku: _hodnota_
-
-
---
-### 3. Celní řízení
-Název souboru: `celniRizeni.php`
-
-Vytvořte skript generující html stránku. V jejím obsahu umístěte formulář, který bude počítat dph a clo dle zadané hodnoty zboží.
-Od uživatele si vyžádejte název zboží a jeho hodnotu. Sazbu DPH si bude sám volit. Pro zjednodušení uvažujte DPH ve výši 15% nebo 21% a clo 2%. Poplatek za celní zpracování činí 90 Kč.
-
-Výsledek zobrazte v tomto formátu:
-* Název zboží: _abc_
-* Sazba DPH: x %
-* DPH: _x_ Kč
-* Clo: _x_ Kč
-* Celkové náklady k úhradě za dovoz: _x_ Kč
-* Náklady na pořízení: _x_ Kč
